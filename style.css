@@ -1,0 +1,244 @@
+body{
+  background:#CEC0B38A;
+  font-family:arial,sans-serif;
+  margin:0;
+  width:100%;
+  padding-bottom:180px;
+}
+.nav{
+  display:flex;
+  justify-content: space-between;
+  align-items:center;
+  background:#FFFFFF;
+  padding:22px 24px;
+  top:0;
+  left:0;
+  position:fixed;
+  width:100%;
+}
+.img-text{
+  display:flex;
+  align-items:center;
+  gap:12px;
+  font-size:24px;
+}
+.img-text img{
+  width:170px;
+  border-radius:50%;
+}
+/*Message*/
+.message{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  flex-wrap:wrap;
+  margin-top:14vh;
+  overflow-y: auto;
+}
+.message1{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  flex-wrap:wrap;
+  margin-top:13px;
+}
+.message-box {
+  background: white;
+  color: black;
+  margin-left:0px;
+  padding: 6px 18px;
+  width:fit-content;
+  margin:20px;
+  max-width:100%;
+  line-break: break-all;
+  overflow-wrap:break-word;
+  align-self:flex-start;
+  margin-right:auto;
+  font-size: 36px;
+  height: auto;
+  border-radius:4px;
+}
+.time{
+  text-align: right;
+  font-size:17px;
+  margin:0;
+}
+/*-----Me message box*/
+.message2{
+  display:block;
+  justify-content:flex-end;
+  align-items:flex-end;
+  margin-top:24px;
+  overflow-y:auto;
+}
+.message-box2{
+  background:#96F8B5;
+  color:black;
+  padding:12px 28px;
+  align-self:flex-end;
+  margin-right:0;
+  margin:16px;
+  margin-left:auto;
+  width:fit-content;
+  max-width:100%;
+  margin-bottom:10px;
+  font-size:36px;
+  overflow-wrap:break-word;
+  height:auto;
+  border-radius:4px;
+}
+.nav-bottom{
+  display:flex;
+  justify-content:flex-start;
+  align-items:center;
+  background:white;
+  bottom:0;
+  left:0;
+  width:100%;
+  padding:29px;
+  position:fixed;
+}
+.input{
+  background:white;
+  color:black;
+  padding:40px;
+  border-radius:12px;
+  width:600px;
+  height:23px;
+  font-size:37px;
+  border:1px solid black;
+  box-shadow:0 2px 1px #0000000F;
+}
+.nav-bottom button{
+  background:#055B0D;
+  color: white ;
+  padding:30px;
+  width:140px;
+  font-size:36px;
+  border:none;
+  border-radius:6px;
+  transition:all 0.5s ease;
+  margin:12px;
+}
+.nav-bottom button:hover {
+  transform:scale(1.09);
+  background:#1BCB2C;
+}
+/*Mobile responsive*/
+@media (max-width:367px){
+  .nav{
+  display:flex;
+  justify-content: space-between;
+  align-items:center;
+  background:#FFFFFF;
+  padding:12px 15px;
+  top:0;
+  left:0;
+  position:fixed;
+  width:100%;
+}
+.img-text{
+  display:flex;
+  align-items:center;
+  gap:12px;
+  font-size:16px;
+}
+.img-text img{
+  width:70px;
+  border-radius:50%;
+}
+/*Message*/
+.message{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  flex-wrap:wrap;
+  margin-top:20vh;
+}
+.message1{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  flex-wrap:wrap;
+  margin-top:13px;
+}
+.message-box {
+  background: white;
+  color: black;
+  margin-right: 3cm;
+  padding: 2px 18px;
+  width:fit-content;
+  max-width:50%;
+  line-break: break-all;
+  overflow-wrap:break-word;
+  font-size: 16px;
+  height: auto;
+  border-radius:4px;
+}
+.time{
+  text-align: right;
+  font-size:10px;
+  margin:0;
+}
+/*-----Me message box*/
+.message2{
+  display:block;
+  justify-content:flex-end;
+  align-items:flex-end;
+  margin-top:24px;
+  overflow-y:auto;
+}
+.message-box2{
+  background:#96F8B5;
+  color:black;
+  padding:2px 18px;
+  align-self:flex-end;
+  margin-right:0;
+  margin:10px;
+  margin-left:auto;
+  width:fit-content;
+  max-width:50%;
+  margin-bottom:10px;
+  font-size:16px;
+  overflow-wrap:break-word;
+  height:auto;
+  border-radius:4px;
+}
+.nav-bottom{
+  display:flex;
+  justify-content:flex-start;
+  align-items:center;
+  background:white;
+  bottom:0;
+  left:0;
+  width:100%;
+  padding:25px;
+  position:fixed;
+}
+.input{
+  background:white;
+  color:black;
+  padding:11px;
+  border-radius:12px;
+  width:220px;
+  font-size:18px;
+  height:23px;
+  border:1px solid black;
+  box-shadow:0 2px 1px #0000000F;
+}
+.nav-bottom button{
+  background:#047C0F;
+  color: white ;
+  padding:6px 8px;
+  width:70px;
+  font-size:19px;
+  border:none;
+  border-radius:6px;
+  transition:all 0.5s ease;
+  margin:12px;
+}
+.nav-bottom button:hover {
+  transform:scale(1.09);
+  background:#1BCB2C;
+}
+}
